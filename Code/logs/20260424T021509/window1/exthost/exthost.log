@@ -23,3 +23,26 @@
 2026-04-24 02:15:45.186 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1276
 2026-04-24 02:15:50.232 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1276
 2026-04-24 02:15:54.300 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1276
+2026-04-24 02:16:56.020 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-04-24 02:16:56.027 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-04-24 02:16:56.080 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-04-24 02:53:52.714 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-04-24 02:59:41.059 [info] Extension host terminating: received terminate message from renderer
+2026-04-24 02:59:41.082 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at B4 (/home/otter/.vscode/extensions/jnoortheen.nix-ide-0.5.5/dist/extension.js:44:46086)
+	at Object.yO (/home/otter/.vscode/extensions/jnoortheen.nix-ide-0.5.5/dist/extension.js:44:49262)
+	at uP._deactivate (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:14479)
+	at file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:12006
+	at Array.map (<anonymous>)
+	at uP._deactivateAll (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:11994)
+	at uP.terminate (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:12345)
+	at i.terminate (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:831:11700)
+	at rp.value (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:831:9847)
+	at E._deliver (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3043)
+	at E.fire (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3361)
+	at as.fire (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at MessagePortMain.<anonymous> (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:831:8082)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+2026-04-24 02:59:41.084 [info] Extension host with pid 77294 exiting with code 0

@@ -4,3 +4,6 @@
 2026-04-24 02:15:12.296 [error] Unable to create workbench contribution 'workbench.contrib.agentHostTerminal'. [createInstance] wbe depends on UNKNOWN service remoteAgentHostService.
 2026-04-24 02:15:12.329 [info] Settings Sync: Account status changed from uninitialized to unavailable
 2026-04-24 02:15:13.138 [info] [perf] Render performance baseline is 21ms
+2026-04-24 02:56:54.794 [error] An unknown error occurred. Please consult the log for more details.
+2026-04-24 02:57:40.986 [error] An unknown error occurred. Please consult the log for more details.
+2026-04-24 02:58:31.384 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

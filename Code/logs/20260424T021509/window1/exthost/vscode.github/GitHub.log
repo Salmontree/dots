@@ -1,1 +1,2 @@
 2026-04-24 02:15:11.884 [info] Log level: Info
+2026-04-24 02:16:43.565 [warning] [GitHubSourceControlHistoryItemDetailsProvider][_loadAssignableUsers] Failed to load assignable user(s) for Salmontree/dots: Error: No GitHub authentication session available.

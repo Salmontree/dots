@@ -20,18 +20,11 @@
 		neovim
 		wget
 		kitty
-		kdePackages.dolphin
-		killall
-		awww
-		swaynotificationcenter
-		waybar
 	];
 
 	# Fonts
 	fonts.packages = with pkgs; [
 		noto-fonts
-		atkinson-hyperlegible-next
-		google-fonts
 	] ++ builtins.filter lib.attrsets.isDerivation (builtins.attrValues pkgs.nerd-fonts);
 	fonts.enableDefaultPackages = true;
 
@@ -64,6 +57,11 @@
 	boot.loader.efi.canTouchEfiVariables = true;
 	services.printing.enable = true;
 	hardware.bluetooth.enable = true;
+  services.avahi = {
+    enable = true;
+    nssmdns4 = true;
+    openFirewall = true;
+  };
 	programs.hyprland = {
 		enable = true;
 		withUWSM = true;    

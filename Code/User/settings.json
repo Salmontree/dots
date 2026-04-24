@@ -2,5 +2,8 @@
     "editor.fontFamily": "'JetBrains Mono Nerd Font', 'Droid Sans Mono', monospace",
     "workbench.colorTheme": "Bearded Theme Black & Amethyst",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.editor.tabSizing": "fixed"
+    "workbench.editor.tabSizing": "fixed",
+    "editor.detectIndentation": false,
+    "terminal.integrated.tabStopWidth": 4,
+    "editor.insertSpaces": false
 }
