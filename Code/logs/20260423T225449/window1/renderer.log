@@ -1,9 +1,0 @@
-2026-04-23 22:54:50.449 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
-2026-04-23 22:54:50.586 [info] Started local extension host with pid 2468.
-2026-04-23 22:54:51.185 [info] MCP Registry configured: https://api.mcp.github.com
-2026-04-23 22:54:51.257 [info] Settings Sync: Account status changed from uninitialized to unavailable
-2026-04-23 22:54:53.226 [info] [perf] Render performance baseline is 20ms
-2026-04-23 22:57:55.637 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: Unable to write file '/etc/nixos/configuration.nix' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/etc/nixos/configuration.nix') file:///etc/nixos/configuration.nix
-2026-04-23 22:57:57.736 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///etc/nixos/configuration.nix
-2026-04-23 22:58:00.772 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///etc/nixos/configuration.nix
-2026-04-23 22:58:01.614 [error] [text file model] handleSaveError(1) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///etc/nixos/configuration.nix

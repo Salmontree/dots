@@ -14,3 +14,64 @@
 2026-04-24 02:04:14.121 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
 2026-04-24 02:11:06.092 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
 2026-04-24 02:11:06.268 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2026-04-24 02:11:07.354 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2026-04-24 02:11:08.358 [error] Error: Failed to execute git
+	at Rf._exec (/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/extensions/git/dist/main.js:28:115)
+	at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+	at async Rf.exec (/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/extensions/git/dist/main.js:23:397)
+	at async _n.exec (/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/extensions/git/dist/main.js:31:4143)
+	at async _n.handleCommitError (/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/extensions/git/dist/main.js:33:7575)
+	at async _n.commit (/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/extensions/git/dist/main.js:33:7053)
+	at async /nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/extensions/git/dist/main.js:60:15267
+	at async tr.retryRun (/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/extensions/git/dist/main.js:72:906)
+	at async tr.run (/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/extensions/git/dist/main.js:66:1550)
+	at async tr.commit (/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/extensions/git/dist/main.js:60:14919)
+	at async file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/extensions/github/dist/extension.js:21:676
+2026-04-24 02:11:10.195 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2026-04-24 02:11:10.547 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2026-04-24 02:11:13.670 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2026-04-24 02:11:15.514 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2026-04-24 02:11:17.957 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2026-04-24 02:11:23.221 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2026-04-24 02:11:28.262 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1166
+2026-04-24 02:11:37.644 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1166
+2026-04-24 02:11:42.680 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1166
+2026-04-24 02:12:36.368 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1166
+2026-04-24 02:12:41.404 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1166
+2026-04-24 02:12:46.439 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1166
+2026-04-24 02:12:51.472 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1166
+2026-04-24 02:12:56.508 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1166
+2026-04-24 02:13:01.541 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1167
+2026-04-24 02:13:06.577 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1167
+2026-04-24 02:13:11.612 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1167
+2026-04-24 02:13:16.650 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1167
+2026-04-24 02:13:21.685 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2026-04-24 02:13:26.724 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1167
+2026-04-24 02:13:31.763 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1167
+2026-04-24 02:13:36.804 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1167
+2026-04-24 02:13:41.848 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1167
+2026-04-24 02:13:46.885 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1167
+2026-04-24 02:13:51.923 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2026-04-24 02:13:56.958 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2026-04-24 02:13:58.652 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2026-04-24 02:14:01.994 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2026-04-24 02:14:07.028 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1168
+2026-04-24 02:14:08.589 [info] Extension host terminating: received terminate message from renderer
+2026-04-24 02:14:08.608 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at B4 (/home/otter/.vscode/extensions/jnoortheen.nix-ide-0.5.5/dist/extension.js:44:46086)
+	at Object.yO (/home/otter/.vscode/extensions/jnoortheen.nix-ide-0.5.5/dist/extension.js:44:49262)
+	at uP._deactivate (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:14479)
+	at file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:12006
+	at Array.map (<anonymous>)
+	at uP._deactivateAll (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:11994)
+	at uP.terminate (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:12345)
+	at i.terminate (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:831:11700)
+	at rp.value (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:831:9847)
+	at E._deliver (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3043)
+	at E.fire (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3361)
+	at as.fire (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at MessagePortMain.<anonymous> (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:831:8082)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+2026-04-24 02:14:08.608 [info] Extension host with pid 68421 exiting with code 0

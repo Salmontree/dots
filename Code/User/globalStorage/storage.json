@@ -44,7 +44,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 35,
             "activityBarWidth": 48,
-            "sideBarWidth": 297,
+            "sideBarWidth": 295,
             "auxiliaryBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
@@ -69,7 +69,7 @@
     },
     "windowSplashWorkspaceOverride": {
         "layoutInfo": {
-            "sideBarWidth": 297,
+            "sideBarWidth": 295,
             "auxiliaryBarWidth": 252,
             "workspaces": {
                 "f1894f04beb5ba99b09ba39df3aa1e1b": {

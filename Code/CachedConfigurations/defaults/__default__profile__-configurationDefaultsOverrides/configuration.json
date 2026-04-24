@@ -1,1 +1,1 @@
-{"explorer.fileNesting.patterns":{"flake.nix":"flake.lock"},"files.associations":{"flake.lock":"json"},"http.systemCertificatesNode":true,"inlineChat.renderMode":"zone","chat.experimental.useSkillAdherencePrompt":true,"terminal.integrated.windowsUseConptyDll":true}
+{"http.systemCertificatesNode":true,"inlineChat.renderMode":"zone","chat.experimental.useSkillAdherencePrompt":true,"terminal.integrated.windowsUseConptyDll":true,"explorer.fileNesting.patterns":{"flake.nix":"flake.lock"},"files.associations":{"flake.lock":"json"}}

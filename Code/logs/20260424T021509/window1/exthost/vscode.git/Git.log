@@ -1,0 +1,175 @@
+2026-04-24 02:15:11.795 [info] [main] Log level: Info
+2026-04-24 02:15:11.795 [info] [main] Validating found git in: "git"
+2026-04-24 02:15:11.795 [info] [main] Using git "2.53.0" from "git"
+2026-04-24 02:15:11.795 [info] [Model][doInitialScan] Initial repository scan started
+2026-04-24 02:15:11.795 [info] > git rev-parse --show-toplevel [6ms]
+2026-04-24 02:15:11.795 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [2ms]
+2026-04-24 02:15:11.795 [info] [Model][openRepository] Opened repository (path): /home/otter/.config
+2026-04-24 02:15:11.795 [info] [Model][openRepository] Opened repository (real path): /home/otter/.config
+2026-04-24 02:15:11.795 [info] [Model][openRepository] Opened repository (kind): repository
+2026-04-24 02:15:11.805 [info] > git config --get commit.template [6ms]
+2026-04-24 02:15:11.806 [info] > git rev-parse --show-toplevel [2ms]
+2026-04-24 02:15:11.811 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-24 02:15:11.816 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2026-04-24 02:15:11.816 [warning] [Git][getBranch] No such branch: main
+2026-04-24 02:15:11.854 [info] > git status -z -uall [34ms]
+2026-04-24 02:15:11.854 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [29ms]
+2026-04-24 02:15:11.882 [info] > git rev-parse --show-toplevel [66ms]
+2026-04-24 02:15:11.894 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2026-04-24 02:15:11.894 [warning] [Git][getBranch] No such branch: main
+2026-04-24 02:15:11.894 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for main: Error: No such branch: main.
+2026-04-24 02:15:12.052 [info] > git rev-parse --show-toplevel [159ms]
+2026-04-24 02:15:12.052 [info] > git config --get commit.template [163ms]
+2026-04-24 02:15:12.104 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-24 02:15:12.105 [info] > git rev-parse --show-toplevel [8ms]
+2026-04-24 02:15:12.105 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [27ms]
+2026-04-24 02:15:12.105 [info] fatal: bad revision 'refs/heads/main'
+2026-04-24 02:15:12.105 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/main"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/main'\n"
+}
+2026-04-24 02:15:12.111 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2026-04-24 02:15:12.111 [warning] [Git][getBranch] No such branch: main
+2026-04-24 02:15:12.121 [info] > git rev-parse --show-toplevel [11ms]
+2026-04-24 02:15:12.126 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [6ms]
+2026-04-24 02:15:12.127 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-24 02:15:12.133 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-24 02:15:12.139 [info] > git status -z -uall [23ms]
+2026-04-24 02:15:12.156 [info] > git rev-parse --show-toplevel [18ms]
+2026-04-24 02:15:12.162 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-24 02:15:12.167 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-24 02:15:12.173 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-24 02:15:12.179 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-24 02:15:12.185 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-24 02:15:12.192 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-24 02:15:12.198 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-24 02:15:12.205 [info] > git rev-parse --show-toplevel [2ms]
+2026-04-24 02:15:12.217 [info] > git check-ignore -v -z --stdin [2ms]
+2026-04-24 02:15:12.217 [info] > git rev-parse --show-toplevel [8ms]
+2026-04-24 02:15:12.223 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-24 02:15:12.230 [info] > git rev-parse --show-toplevel [2ms]
+2026-04-24 02:15:12.236 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-24 02:15:12.242 [info] > git rev-parse --show-toplevel [1ms]
+2026-04-24 02:15:12.373 [info] > git rev-parse --show-toplevel [127ms]
+2026-04-24 02:15:12.375 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-04-24 02:15:12.400 [info] > git show --textconv :nixos/home.nix [20ms]
+2026-04-24 02:15:12.400 [info] > git show --textconv HEAD:nixos/home.nix [15ms]
+2026-04-24 02:15:12.400 [info] > git ls-tree -l HEAD -- nixos/home.nix [5ms]
+2026-04-24 02:15:12.400 [info] fatal: Not a valid object name HEAD
+2026-04-24 02:15:12.405 [info] > git ls-files --stage -- nixos/home.nix [15ms]
+2026-04-24 02:15:12.415 [info] > git cat-file -s 8a3ba7d75415880de24847aed25a83847ebf6416 [5ms]
+2026-04-24 02:15:12.416 [info] > git hash-object -t tree /dev/null [11ms]
+2026-04-24 02:15:12.416 [warning] [GitFileSystemProvider][stat] File not found - git:/home/otter/.config/nixos/home.nix.git?%7B%22path%22%3A%22%2Fhome%2Fotter%2F.config%2Fnixos%2Fhome.nix%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-04-24 02:15:12.416 [info] > git hash-object -t tree /dev/null [1ms]
+2026-04-24 02:15:12.416 [warning] [GitFileSystemProvider][readFile] File not found - git:/home/otter/.config/nixos/home.nix.git?%7B%22path%22%3A%22%2Fhome%2Fotter%2F.config%2Fnixos%2Fhome.nix%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-04-24 02:15:12.500 [info] > git check-ignore -v -z --stdin [2ms]
+2026-04-24 02:15:12.595 [info] > git check-ignore -v -z --stdin [3ms]
+2026-04-24 02:15:12.700 [info] > git check-ignore -v -z --stdin [2ms]
+2026-04-24 02:15:14.844 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-24 02:15:14.844 [info] > git config --get commit.template [6ms]
+2026-04-24 02:15:14.845 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-24 02:15:14.845 [warning] [Git][getBranch] No such branch: main
+2026-04-24 02:15:14.855 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-24 02:15:14.874 [info] > git status -z -uall [25ms]
+2026-04-24 02:15:15.349 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [22ms]
+2026-04-24 02:15:15.349 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2026-04-24 02:15:15.356 [info] > git config --get-all user.name [2ms]
+2026-04-24 02:15:15.363 [info] > git config --get commit.template [2ms]
+2026-04-24 02:15:15.369 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-24 02:15:15.370 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-24 02:15:15.370 [warning] [Git][getBranch] No such branch: main
+2026-04-24 02:15:15.382 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-24 02:15:15.398 [info] > git status -z -uall [22ms]
+2026-04-24 02:15:15.477 [info] > git check-ignore -v -z --stdin [2ms]
+2026-04-24 02:15:15.838 [info] > git check-ignore -v -z --stdin [2ms]
+2026-04-24 02:15:16.790 [info] > git ls-files --stage -- nixos/home.nix [1ms]
+2026-04-24 02:15:16.797 [info] > git cat-file -s 8a3ba7d75415880de24847aed25a83847ebf6416 [1ms]
+2026-04-24 02:15:16.804 [info] > git show --textconv :nixos/home.nix [2ms]
+2026-04-24 02:15:19.896 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-24 02:15:19.897 [info] > git config --get commit.template [6ms]
+2026-04-24 02:15:19.897 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-24 02:15:19.897 [warning] [Git][getBranch] No such branch: main
+2026-04-24 02:15:19.907 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-24 02:15:19.924 [info] > git status -z -uall [22ms]
+2026-04-24 02:15:20.364 [info] > git check-ignore -v -z --stdin [1ms]
+2026-04-24 02:15:24.948 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-24 02:15:24.949 [info] > git config --get commit.template [6ms]
+2026-04-24 02:15:24.949 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-24 02:15:24.949 [warning] [Git][getBranch] No such branch: main
+2026-04-24 02:15:24.960 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-24 02:15:24.977 [info] > git status -z -uall [23ms]
+2026-04-24 02:15:25.410 [info] > git check-ignore -v -z --stdin [1ms]
+2026-04-24 02:15:30.002 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-24 02:15:30.003 [info] > git config --get commit.template [6ms]
+2026-04-24 02:15:30.003 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-24 02:15:30.003 [warning] [Git][getBranch] No such branch: main
+2026-04-24 02:15:30.015 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-04-24 02:15:30.031 [info] > git status -z -uall [23ms]
+2026-04-24 02:15:30.462 [info] > git check-ignore -v -z --stdin [2ms]
+2026-04-24 02:15:35.052 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-24 02:15:35.053 [info] > git config --get commit.template [6ms]
+2026-04-24 02:15:35.053 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-24 02:15:35.053 [warning] [Git][getBranch] No such branch: main
+2026-04-24 02:15:35.063 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-24 02:15:35.080 [info] > git status -z -uall [22ms]
+2026-04-24 02:15:35.505 [info] > git check-ignore -v -z --stdin [1ms]
+2026-04-24 02:15:40.099 [info] > git config --get commit.template [1ms]
+2026-04-24 02:15:40.105 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-24 02:15:40.106 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-24 02:15:40.106 [warning] [Git][getBranch] No such branch: main
+2026-04-24 02:15:40.118 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-24 02:15:40.133 [info] > git status -z -uall [22ms]
+2026-04-24 02:15:40.560 [info] > git check-ignore -v -z --stdin [2ms]
+2026-04-24 02:15:45.150 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-24 02:15:45.155 [info] > git config --get commit.template [6ms]
+2026-04-24 02:15:45.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-24 02:15:45.156 [warning] [Git][getBranch] No such branch: main
+2026-04-24 02:15:45.167 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-24 02:15:45.178 [info] > git status -z -uall [17ms]
+2026-04-24 02:15:45.602 [info] > git check-ignore -v -z --stdin [1ms]
+2026-04-24 02:15:50.196 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-24 02:15:50.201 [info] > git config --get commit.template [6ms]
+2026-04-24 02:15:50.202 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-24 02:15:50.202 [warning] [Git][getBranch] No such branch: main
+2026-04-24 02:15:50.212 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-24 02:15:50.224 [info] > git status -z -uall [18ms]
+2026-04-24 02:15:50.648 [info] > git check-ignore -v -z --stdin [4ms]
+2026-04-24 02:15:54.253 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [20ms]
+2026-04-24 02:15:54.259 [info] > git config --get commit.template [1ms]
+2026-04-24 02:15:54.268 [info] > git config --get commit.template [1ms]
+2026-04-24 02:15:54.273 [info] [Git][getRemotes] No remotes found in the git config file
+2026-04-24 02:15:54.274 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-24 02:15:54.285 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [1ms]
+2026-04-24 02:15:54.296 [info] > git status -z -uall [17ms]
+2026-04-24 02:15:54.321 [info] > git blame --root --incremental 356faa156934e1d2d2202eb9b2db3cff54dd7c56 -- nixos/home.nix [2ms]
+2026-04-24 02:15:54.563 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [251ms]
+2026-04-24 02:15:54.666 [info] > git check-ignore -v -z --stdin [1ms]
+2026-04-24 02:15:54.968 [info] > git check-ignore -v -z --stdin [2ms]
+2026-04-24 02:15:55.570 [info] > git ls-files --stage -- nixos/home.nix [1ms]
+2026-04-24 02:15:55.576 [info] > git cat-file -s 8a3ba7d75415880de24847aed25a83847ebf6416 [1ms]
+2026-04-24 02:15:55.583 [info] > git show --textconv :nixos/home.nix [2ms]
+2026-04-24 02:16:30.154 [info] > git ls-files --stage -- nixos/home.nix [2ms]
+2026-04-24 02:16:30.159 [info] > git cat-file -s 8a3ba7d75415880de24847aed25a83847ebf6416 [1ms]
+2026-04-24 02:16:30.166 [info] > git show --textconv :nixos/home.nix [1ms]
+2026-04-24 02:16:31.761 [info] > git config --get commit.template [6ms]
+2026-04-24 02:16:31.761 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2026-04-24 02:16:31.772 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
+2026-04-24 02:16:31.783 [info] > git status -z -uall [17ms]
+2026-04-24 02:16:32.105 [info] > git check-ignore -v -z --stdin [2ms]
+2026-04-24 02:16:33.040 [info] > git ls-files --stage -- nixos/home.nix [1ms]
+2026-04-24 02:16:33.046 [info] > git cat-file -s 8a3ba7d75415880de24847aed25a83847ebf6416 [1ms]
+2026-04-24 02:16:33.053 [info] > git show --textconv :nixos/home.nix [1ms]
