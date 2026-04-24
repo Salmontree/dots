@@ -1,0 +1,16 @@
+2026-04-24 02:03:50.843 [info] Extension host with pid 68421 started
+2026-04-24 02:03:50.843 [info] Skipping acquiring lock for /home/otter/.config/Code/User/workspaceStorage/b1d9bbdbba16eef924cdacabbc9ad4f8.
+2026-04-24 02:03:50.993 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-04-24 02:03:51.018 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-04-24 02:03:51.031 [info] ExtensionService#_doActivateExtension jnoortheen.nix-ide, startup: false, activationEvent: 'onLanguage:nix'
+2026-04-24 02:03:51.381 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-04-24 02:03:51.417 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-04-24 02:03:51.455 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-04-24 02:03:51.590 [info] Eager extensions activated
+2026-04-24 02:03:51.724 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-04-24 02:03:51.726 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-04-24 02:03:51.741 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-04-24 02:03:51.757 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-04-24 02:04:14.121 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-04-24 02:11:06.092 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165
+2026-04-24 02:11:06.268 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1165

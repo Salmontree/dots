@@ -1,0 +1,10 @@
+2026-04-24 02:03:49.688 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 02:03:50.332 [info] Started local extension host with pid 68421.
+2026-04-24 02:03:50.871 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 02:03:52.195 [error] Unable to create workbench contribution 'workbench.contrib.agentHostTerminal'. [createInstance] wbe depends on UNKNOWN service remoteAgentHostService.
+2026-04-24 02:03:52.239 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-04-24 02:03:53.015 [info] [perf] Render performance baseline is 22ms
+2026-04-24 02:04:13.390 [error] An unknown error occurred. Please consult the log for more details.
+2026-04-24 02:06:37.223 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-04-24 02:07:53.138 [error] An unknown error occurred. Please consult the log for more details.
+2026-04-24 02:09:47.743 [error] [Extension Host] GET /repos/Salmontree/dots - 404 with id D762:2606E4:34D560:D5A37C:69EB092B in 145ms

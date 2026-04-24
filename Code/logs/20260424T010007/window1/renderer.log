@@ -1,0 +1,18 @@
+2026-04-24 01:00:08.108 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 01:00:08.746 [info] Started local extension host with pid 17371.
+2026-04-24 01:00:09.421 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 01:00:10.304 [error] Unable to create workbench contribution 'workbench.contrib.agentHostTerminal'. [createInstance] wbe depends on UNKNOWN service remoteAgentHostService.
+2026-04-24 01:00:10.339 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-04-24 01:00:11.349 [info] [perf] Render performance baseline is 22ms
+2026-04-24 01:03:46.175 [error] Error: The editor could not be opened because the file was not found.
+    at B6.handleSetInputError (vscode-file://vscode-app/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3873:92373)
+    at async B6.setInput (vscode-file://vscode-app/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:3873:91382)
+    at async vRe.doSetInput (vscode-file://vscode-app/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1189:33678)
+    at async vRe.doOpenEditor (vscode-file://vscode-app/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1189:31464)
+    at async vRe.openEditor (vscode-file://vscode-app/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1189:30412)
+    at async vscode-file://vscode-app/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1301:31273
+    at async s (vscode-file://vscode-app/nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/workbench.desktop.main.js:1193:57592)
+2026-04-24 01:05:00.417 [error] [text file model] handleSaveError(333) - exit - resulted in a save error: Error: Unable to write file '/home/otter/.config/nixos/home.nix' (NoPermissions (FileSystemError): Error: EACCES: permission denied, open '/home/otter/.config/nixos/home.nix') file:///home/otter/.config/nixos/home.nix
+2026-04-24 01:05:06.309 [error] [text file model] handleSaveError(333) - exit - resulted in a save error: Error: No polkit authentication agent found. file:///home/otter/.config/nixos/home.nix
+2026-04-24 01:06:05.946 [error] An unknown error occurred. Please consult the log for more details.
+2026-04-24 01:10:03.977 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

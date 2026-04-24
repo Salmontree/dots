@@ -1,0 +1,5 @@
+2026-04-24 00:16:17.339 [info] update#setState disabled
+2026-04-24 00:16:17.339 [info] update#ctor - updates are disabled as there is no update URL
+2026-04-24 00:16:51.679 [info] [network process] gone - pid: 7776, exitCode: 15, crashed: true, crashedPreIPC: false
+2026-04-24 00:16:51.682 [info] [network process] launched with pid 8102
+2026-04-24 00:16:51.704 [error] CodeWindow: renderer process gone (reason: clean-exit, code: <unknown>)

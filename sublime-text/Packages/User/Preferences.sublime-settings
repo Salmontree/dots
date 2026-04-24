@@ -1,0 +1,17 @@
+{
+	"font_size": 13,
+	"font_face": "JetBrains Mono Nerd Font",
+	"word_wrap": true,
+	"highlight_line": true,
+	"caret_style": "phase",
+	"line_padding_top": 1,
+	"line_padding_bottom": 1,
+	"theme": "Adaptive.sublime-theme",
+	"color_scheme": "Packages/aura-theme.tmTheme",
+	"hardware_acceleration": "opengl",
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"index_files": true,
+}

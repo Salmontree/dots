@@ -1,0 +1,9 @@
+2026-04-24 00:17:51.026 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 00:17:51.660 [info] Started local extension host with pid 2238.
+2026-04-24 00:17:52.368 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 00:17:53.441 [error] Unable to create workbench contribution 'workbench.contrib.agentHostTerminal'. [createInstance] wbe depends on UNKNOWN service remoteAgentHostService.
+2026-04-24 00:17:53.482 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-04-24 00:17:54.311 [info] [perf] Render performance baseline is 22ms
+2026-04-24 00:39:52.506 [error] An unknown error occurred. Please consult the log for more details.
+2026-04-24 00:40:50.257 [error] lock() request could not be registered.: InvalidStateError: lock() request could not be registered.
+2026-04-24 00:41:21.704 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

@@ -1,0 +1,7 @@
+2026-04-24 01:49:36.987 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 01:49:37.531 [info] Started local extension host with pid 39946.
+2026-04-24 01:49:37.883 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 01:49:38.480 [error] Unable to create workbench contribution 'workbench.contrib.agentHostTerminal'. [createInstance] wbe depends on UNKNOWN service remoteAgentHostService.
+2026-04-24 01:49:38.666 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-04-24 01:49:40.112 [info] [perf] Render performance baseline is 21ms
+2026-04-24 01:49:41.033 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

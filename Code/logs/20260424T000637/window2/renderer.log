@@ -1,0 +1,6 @@
+2026-04-24 00:06:38.628 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 00:06:39.214 [info] Started local extension host with pid 2714.
+2026-04-24 00:06:39.447 [error] Unable to create workbench contribution 'workbench.contrib.agentHostTerminal'. [createInstance] wbe depends on UNKNOWN service remoteAgentHostService.
+2026-04-24 00:06:39.771 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 00:06:39.958 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-04-24 00:06:39.988 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled

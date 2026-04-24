@@ -1,0 +1,4 @@
+2026-04-24 00:06:38.581 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 00:06:39.217 [info] Started local extension host with pid 2722.
+2026-04-24 00:06:39.733 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 00:06:39.864 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled

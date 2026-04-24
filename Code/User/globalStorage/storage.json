@@ -1,0 +1,90 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "94a6eca76d75333dfd306620dde849dec9d5e49245ad2b9559f560b7ced3e1f9",
+    "telemetry.devDeviceId": "104ddab2-24c8-4759-88ea-5ba010263604",
+    "backupWorkspaces": {
+        "workspaces": [
+            {
+                "id": "b1d9bbdbba16eef924cdacabbc9ad4f8",
+                "configURIPath": "file:///home/otter/.config/config.code-workspace"
+            }
+        ],
+        "folders": [],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/otter/.config": "__default__profile__",
+            "file:///home/otter/.config/config.code-workspace": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#111418",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#a0acbb",
+            "background": "#111418",
+            "editorBackground": "#111418",
+            "titleBarBackground": "#060708",
+            "titleBarBorder": "#040506",
+            "activityBarBackground": "#0c0f11",
+            "activityBarBorder": "#040506",
+            "sideBarBackground": "#0c0f11",
+            "sideBarBorder": "#040506",
+            "statusBarBackground": "#111418",
+            "statusBarBorder": "#040506",
+            "statusBarNoFolderBackground": "#0c0f11"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 297,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "workspaceIdentifier": {
+                "id": "b1d9bbdbba16eef924cdacabbc9ad4f8",
+                "configURIPath": "file:///home/otter/.config/config.code-workspace"
+            },
+            "backupPath": "/home/otter/.config/Code/Backups/b1d9bbdbba16eef924cdacabbc9ad4f8",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 2048,
+                "height": 1152
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 297,
+            "auxiliaryBarWidth": 252,
+            "workspaces": {
+                "f1894f04beb5ba99b09ba39df3aa1e1b": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1b35121f543f71920b31f1107c16ba9d": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "b1d9bbdbba16eef924cdacabbc9ad4f8": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

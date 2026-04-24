@@ -1,0 +1,12 @@
+2026-04-24 01:03:22.922 [info] Getting Manifest... jnoortheen.nix-ide
+2026-04-24 01:03:23.097 [info] Installing extension: jnoortheen.nix-ide {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/otter/.vscode/extensions/extensions.json","path":"/home/otter/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.116.0","date":"2026-04-15T00:28:13Z"}}
+2026-04-24 01:03:23.989 [info] Extension signature verification result for jnoortheen.nix-ide: Success. Internal Code: 0. Executed: true. Duration: 550ms.
+2026-04-24 01:03:24.004 [info] Extracted extension to file:///home/otter/.vscode/extensions/jnoortheen.nix-ide-0.5.5: jnoortheen.nix-ide
+2026-04-24 01:03:24.006 [info] Renamed to /home/otter/.vscode/extensions/jnoortheen.nix-ide-0.5.5
+2026-04-24 01:03:24.016 [info] Extension installed successfully: jnoortheen.nix-ide vscode-userdata:/home/otter/.vscode/extensions/extensions.json
+2026-04-24 01:03:35.939 [info] Getting Manifest... pkief.material-icon-theme
+2026-04-24 01:03:36.086 [info] Installing extension: pkief.material-icon-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/otter/.vscode/extensions/extensions.json","path":"/home/otter/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false,"isApplicationScoped":false,"productVersion":{"version":"1.116.0","date":"2026-04-15T00:28:13Z"}}
+2026-04-24 01:03:36.873 [info] Extension signature verification result for pkief.material-icon-theme: Success. Internal Code: 0. Executed: true. Duration: 535ms.
+2026-04-24 01:03:37.311 [info] Extracted extension to file:///home/otter/.vscode/extensions/pkief.material-icon-theme-5.33.1: pkief.material-icon-theme
+2026-04-24 01:03:37.340 [info] Renamed to /home/otter/.vscode/extensions/pkief.material-icon-theme-5.33.1
+2026-04-24 01:03:37.353 [info] Extension installed successfully: pkief.material-icon-theme vscode-userdata:/home/otter/.vscode/extensions/extensions.json

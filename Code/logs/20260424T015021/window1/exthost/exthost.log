@@ -1,0 +1,36 @@
+2026-04-24 01:50:23.333 [info] Extension host with pid 40512 started
+2026-04-24 01:50:23.333 [info] Skipping acquiring lock for /home/otter/.config/Code/User/workspaceStorage/b1d9bbdbba16eef924cdacabbc9ad4f8.
+2026-04-24 01:50:23.572 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-04-24 01:50:23.598 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-04-24 01:50:23.613 [info] ExtensionService#_doActivateExtension jnoortheen.nix-ide, startup: false, activationEvent: 'onLanguage:nix'
+2026-04-24 01:50:23.895 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-04-24 01:50:24.105 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-04-24 01:50:24.145 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-04-24 01:50:24.146 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-04-24 01:50:24.311 [info] Eager extensions activated
+2026-04-24 01:50:24.327 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-04-24 01:50:24.329 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-04-24 01:50:24.345 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-04-24 01:52:22.936 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-04-24 01:52:22.942 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-04-24 01:52:23.002 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-04-24 01:55:57.532 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-04-24 02:02:30.009 [info] Extension host terminating: received terminate message from renderer
+2026-04-24 02:02:30.028 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at B4 (/home/otter/.vscode/extensions/jnoortheen.nix-ide-0.5.5/dist/extension.js:44:46086)
+	at Object.yO (/home/otter/.vscode/extensions/jnoortheen.nix-ide-0.5.5/dist/extension.js:44:49262)
+	at uP._deactivate (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:14479)
+	at file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:12006
+	at Array.map (<anonymous>)
+	at uP._deactivateAll (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:11994)
+	at uP.terminate (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:505:12345)
+	at i.terminate (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:507:1072)
+	at js (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:831:11700)
+	at rp.value (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:831:9847)
+	at E._deliver (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3043)
+	at E.fire (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:403:3361)
+	at as.fire (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:405:8437)
+	at MessagePortMain.<anonymous> (file:///nix/store/dmjhwvjiaycdsnqp31hn930f6il0pkjm-vscode-1.116.0/lib/vscode/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:831:8082)
+	at MessagePortMain.emit (node:events:519:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2959)
+2026-04-24 02:02:30.029 [info] Extension host with pid 40512 exiting with code 0

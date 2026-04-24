@@ -1,0 +1,8 @@
+2026-04-24 00:06:37.721 [info] update#setState disabled
+2026-04-24 00:06:37.722 [info] update#ctor - updates are disabled as there is no update URL
+2026-04-24 00:06:39.355 [error] vscode-file: Refused to load resource /nix/store/1q0qn58cl3zkdzfxl5rc0nfjbc8gh40z-vscode-1.106.2/lib/vscode/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/nix/store/1q0qn58cl3zkdzfxl5rc0nfjbc8gh40z-vscode-1.106.2/lib/vscode/resources/app/extensions/theme-seti/icons/seti.woff)
+2026-04-24 00:06:39.819 [error] vscode-file: Refused to load resource /nix/store/1q0qn58cl3zkdzfxl5rc0nfjbc8gh40z-vscode-1.106.2/lib/vscode/resources/app/extensions/theme-seti/icons/seti.woff from vscode-file: protocol (original URL: vscode-file://vscode-app/nix/store/1q0qn58cl3zkdzfxl5rc0nfjbc8gh40z-vscode-1.106.2/lib/vscode/resources/app/extensions/theme-seti/icons/seti.woff)
+2026-04-24 00:06:39.866 [info] Extension host with pid 2722 exited with code: 0, signal: unknown.
+2026-04-24 00:06:39.992 [info] Extension host with pid 2714 exited with code: 0, signal: unknown.
+2026-04-24 00:06:40.010 [error] [UtilityProcess id: 2, type: fileWatcher, pid: 2672]: crashed with code 15 and reason 'killed'
+2026-04-24 00:16:05.508 [info] Extension host with pid 2799 exited with code: 0, signal: unknown.

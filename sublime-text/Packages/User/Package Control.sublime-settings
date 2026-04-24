@@ -1,0 +1,15 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"FileIcons",
+		"LSP",
+		"LSP-clangd",
+		"LSP-gopls",
+		"Package Control",
+		"SideBarTools",
+	],
+}

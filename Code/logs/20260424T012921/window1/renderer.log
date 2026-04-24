@@ -1,0 +1,14 @@
+2026-04-24 01:29:21.759 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 01:29:22.442 [info] Started local extension host with pid 26254.
+2026-04-24 01:29:23.071 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 01:29:24.224 [error] Unable to create workbench contribution 'workbench.contrib.agentHostTerminal'. [createInstance] wbe depends on UNKNOWN service remoteAgentHostService.
+2026-04-24 01:29:24.253 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-04-24 01:29:25.112 [info] [perf] Render performance baseline is 22ms
+2026-04-24 01:29:40.091 [error] An unknown error occurred. Please consult the log for more details.
+2026-04-24 01:30:29.757 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2026-04-24 01:40:47.837 [error] An unknown error occurred. Please consult the log for more details.
+2026-04-24 01:50:03.329 [error] Ignoring terminal.integrated.initialHint.copilotCli as terminal.integrated.initialHint is true
+2026-04-24 01:50:03.378 [info] ChatSessionStore: Workspace transition from f1894f04beb5ba99b09ba39df3aa1e1b to b1d9bbdbba16eef924cdacabbc9ad4f8
+2026-04-24 01:50:03.380 [info] ChatSessionStore: Found 1 files in old storage location
+2026-04-24 01:50:03.383 [info] ChatSessionStore: Copied 1 chat session files from file:///home/otter/.config/Code/User/workspaceStorage/f1894f04beb5ba99b09ba39df3aa1e1b/chatSessions to file:///home/otter/.config/Code/User/workspaceStorage/b1d9bbdbba16eef924cdacabbc9ad4f8/chatSessions (originals preserved at old location)
+2026-04-24 01:50:03.392 [info] Started local extension host with pid 40093.

@@ -1,0 +1,12 @@
+2026-04-23 23:07:49.857 [info] Extension host with pid 1839 started
+2026-04-23 23:07:49.857 [info] Skipping acquiring lock for /home/otter/.config/Code/User/workspaceStorage/f1894f04beb5ba99b09ba39df3aa1e1b.
+2026-04-23 23:07:50.001 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-04-23 23:07:50.025 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-04-23 23:07:50.150 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-04-23 23:07:50.163 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-04-23 23:07:50.225 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-04-23 23:07:50.265 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-04-23 23:07:50.351 [info] Eager extensions activated
+2026-04-23 23:07:50.356 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-04-23 23:07:50.358 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-04-23 23:08:26.545 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
